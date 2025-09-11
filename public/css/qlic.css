@@ -114,7 +114,7 @@ input:focus,textarea:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-
 /* Responsive */
 @media (max-width:1024px){.hero-grid{grid-template-columns:1fr}.device-mock{margin-top:10px}.contact-grid{grid-template-columns:1fr}}
 @media (max-width:720px){
-  .main-nav{display:none;position:absolute;top:64px;left:0;right:0;border-top:1px solid var(--border);background:var(--bg);flex-direction:column;padding:12px}
+  .main-nav{display:none;position:absolute;top:64px;left:0;right:0;border-top:1px solid var(--border);background:linear-gradient(90deg, #0a63ff, #007BFF);flex-direction:column;padding:12px}
   body.nav-open .main-nav{display:flex}
   .nav-toggle{display:block;position:absolute;right:12px;top:14px;z-index:150}
   .section{padding:56px 0}
@@ -124,8 +124,9 @@ input:focus,textarea:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-
   .features-grid{grid-template-columns:1fr}
   .pricing-grid{grid-template-columns:1fr}
   .footer-content{flex-direction:column;gap:8px}
-  /* place language toggle left of hamburger */
-  .lang-switch{position:absolute;right:56px;top:12px;z-index:145}
+  /* place language toggle left of hamburger as inline element */
+  .lang-switch{position:relative;right:auto;margin-right:48px}
+  .main-nav .nav-link{color:#fff}
 }
 
 /* Enhancements */
@@ -178,7 +179,7 @@ body.scrolled .site-header{background:linear-gradient(90deg, #0a63ff, #007BFF); 
 @media (max-width:720px){.mobile-cta{display:inline-flex;width:calc(100% - 32px);max-width:520px;border-radius:999px;padding:14px 18px}}
 
 /* Language switch */
-.lang-switch{position:absolute;top:12px;right:12px;z-index:120;background:#fff;color:var(--text);border:1px solid var(--border);border-radius:999px;padding:8px 10px;font-weight:600;cursor:pointer;box-shadow:0 6px 16px rgba(2,6,23,.12)}
+.lang-switch{position:relative;margin-left:12px;z-index:120;background:#fff;color:var(--text);border:1px solid var(--border);border-radius:999px;padding:8px 10px;font-weight:600;cursor:pointer;box-shadow:0 6px 16px rgba(2,6,23,.12)}
 .lang-switch:hover{box-shadow:0 10px 24px rgba(2,6,23,.16)}
 
 /* About */
