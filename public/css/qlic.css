@@ -7,7 +7,7 @@
 /* Header */
 .site-header{position:fixed;top:0;left:0;right:0;z-index:120;background:var(--bg);border-bottom:1px solid var(--border)}
 main{margin-top:64px}
-.header-content{display:flex;align-items:center;justify-content:space-between;height:64px}
+.header-content{display:flex;align-items:center;justify-content:space-between;height:64px;position:relative;padding:0 20px}
 .brand{font-weight:700;font-size:20px;color:var(--text);text-decoration:none}
 .main-nav{display:flex;gap:16px;align-items:center}
 .nav-link{color:var(--text);text-decoration:none;padding:8px 10px;border-radius:8px}
