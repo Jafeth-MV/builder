@@ -179,6 +179,10 @@
     setText('#btn-learn-more', tr['cta.learnMore']);
     const learnP = document.querySelector('#learn-more-panel p'); if (learnP) learnP.textContent = tr['hero.more'];
     setText('.badge-live', tr['hero.badge']);
+    // Trust row
+    setText('.trust-row li:nth-child(1)', tr['trust.sensors']);
+    setText('.trust-row li:nth-child(2)', tr['trust.uptime']);
+    setText('.trust-row li:nth-child(3)', tr['trust.cloud']);
 
     // Readouts labels
     setText('.device-readouts .readout:nth-child(1) span', tr['readout.volume']);
@@ -269,6 +273,25 @@
     setText('#contact button[type="submit"]', tr['contact.send']);
 
     // Footer
+    setText('.footer-grid .footer-col:nth-child(1) .footer-title', tr['footer.company']);
+    setText('.footer-grid .footer-col:nth-child(2) .footer-title', tr['footer.help']);
+    setText('.footer-grid .footer-col:nth-child(3) .footer-title', tr['footer.community']);
+    setText('.footer-grid .footer-col:nth-child(4) .footer-title', tr['footer.follow']);
+
+    setText('.footer-grid .footer-col:nth-child(1) .footer-links li:nth-child(1) a', tr['footer.company.about']);
+    setText('.footer-grid .footer-col:nth-child(1) .footer-links li:nth-child(2) a', tr['footer.company.services']);
+    setText('.footer-grid .footer-col:nth-child(1) .footer-links li:nth-child(3) a', tr['footer.company.privacy']);
+    setText('.footer-grid .footer-col:nth-child(1) .footer-links li:nth-child(4) a', tr['footer.company.affiliates']);
+
+    setText('.footer-grid .footer-col:nth-child(2) .footer-links li:nth-child(1) a', tr['footer.help.faq']);
+    setText('.footer-grid .footer-col:nth-child(2) .footer-links li:nth-child(2) a', tr['footer.help.progress']);
+    setText('.footer-grid .footer-col:nth-child(2) .footer-links li:nth-child(3) a', tr['footer.help.advisors']);
+    setText('.footer-grid .footer-col:nth-child(2) .footer-links li:nth-child(4) a', tr['footer.help.payments']);
+
+    setText('.footer-grid .footer-col:nth-child(3) .footer-links li:nth-child(1) a', tr['footer.community.story']);
+    setText('.footer-grid .footer-col:nth-child(3) .footer-links li:nth-child(2) a', tr['footer.community.developers']);
+    setText('.footer-grid .footer-col:nth-child(3) .footer-links li:nth-child(3) a', tr['footer.community.events']);
+
     const rights = document.querySelector('.footer-copy');
     if (rights) rights.innerHTML = `© <span id="year"></span> Qlic. ${tr['footer.rights']}`;
 
@@ -288,6 +311,8 @@
 
     // Save
     localStorage.setItem('qlic_lang', lang);
+    // Set document lang attribute
+    document.documentElement.setAttribute('lang', lang);
   }
 
   const langBtn = document.getElementById('lang-toggle');
