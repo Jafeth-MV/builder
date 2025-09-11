@@ -116,7 +116,7 @@ input:focus,textarea:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-
 @media (max-width:720px){
   .main-nav{display:none;position:absolute;top:64px;left:0;right:0;border-top:1px solid var(--border);background:linear-gradient(90deg, #0a63ff, #007BFF);flex-direction:column;padding:12px}
   body.nav-open .main-nav{display:flex}
-  .nav-toggle{display:block;position:static;margin-left:8px;z-index:150}
+  .nav-toggle{display:block;position:static;margin-left:auto;z-index:150}
   .section{padding:56px 0}
   .hero-title{font-size:34px}
   .metrics-grid{grid-template-columns:1fr}
