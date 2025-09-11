@@ -5,13 +5,14 @@
 .section-desc{margin:0 0 24px;color:var(--muted)}
 
 /* Header */
-.site-header{position:sticky;top:0;z-index:50;background:var(--bg);border-bottom:1px solid var(--border)}
+.site-header{position:fixed;top:0;left:0;right:0;z-index:120;background:var(--bg);border-bottom:1px solid var(--border)}
+main{margin-top:64px}
 .header-content{display:flex;align-items:center;justify-content:space-between;height:64px}
 .brand{font-weight:700;font-size:20px;color:var(--text);text-decoration:none}
 .main-nav{display:flex;gap:16px;align-items:center}
 .nav-link{color:var(--text);text-decoration:none;padding:8px 10px;border-radius:8px}
 .nav-link:hover{background:var(--card)}
-.nav-toggle{display:none;background:none;border:0;padding:8px;cursor:pointer}
+.nav-toggle{display:none;background:none;border:0;padding:8px;cursor:pointer;position:relative;z-index:130}
 .nav-toggle .bar{display:block;width:22px;height:2px;background:var(--text);margin:4px 0;border-radius:2px}
 .mobile-nav{display:flex;flex-direction:column;padding:12px;border-top:1px solid var(--border);background:var(--bg)}
 .mobile-link{padding:10px;border-radius:8px;color:var(--text);text-decoration:none}
@@ -119,10 +120,12 @@ input:focus,textarea:focus{outline:none;box-shadow:0 0 0 4px var(--ring);border-
   .section{padding:56px 0}
   .hero-title{font-size:34px}
   .metrics-grid{grid-template-columns:1fr}
-  .solutions-grid{grid-template-columns:1fr}
+  .solutions_grid{grid-template-columns:1fr}
   .features-grid{grid-template-columns:1fr}
   .pricing-grid{grid-template-columns:1fr}
   .footer-content{flex-direction:column;gap:8px}
+  /* Move language toggle so it doesn't cover the hamburger */
+  .lang-switch{right:72px}
 }
 
 /* Enhancements */
