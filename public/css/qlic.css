@@ -160,7 +160,8 @@ body.scrolled .site-header{background:linear-gradient(90deg, #0a63ff, #007BFF); 
 
 /* Colorful theme additions */
 .site-header{background:linear-gradient(90deg, #0a63ff, #007BFF);color:#fff}
-.site-header .brand,.site-header .nav-link{color:#fff}
+.site-header .brand{color:#fff}
+.site-header .nav-link{color:#fff}
 .site-header .nav-link:hover{background:rgba(255,255,255,.08)}
 .site-header .btn.btn-outline{background:#fff;color:var(--primary);border-color:#fff}
 
