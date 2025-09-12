@@ -118,7 +118,15 @@
       'status.signup.invalid':'Fill name, email and a password of at least 6 characters.',
       'status.signup.success':'Account created! Check your email to confirm.',
       'status.contact.invalid':'Complete all fields to continue.','status.contact.success':'Message sent. We will reply shortly.',
-      'toast.plan':'Plan {plan} selected. Our team will contact you.'
+      'toast.plan':'Plan {plan} selected. Our team will contact you.',
+      'testimonials.title':'What our customers say',
+      'testimonials.desc':'Real stories from teams using Qlic for water.',
+      'testimonials.1.quote':'We finally have full visibility of our water tanks. Alerts prevented two outages last month.',
+      'testimonials.1.name':'Laura P.','testimonials.1.role':'Facilities Lead',
+      'testimonials.2.quote':'Setup was simple and the dashboards are clear. Great support as well.',
+      'testimonials.2.name':'Daniel R.','testimonials.2.role':'Operations Manager',
+      'testimonials.3.quote':'We reduced water waste by 18% after a quarter using Qlic.',
+      'testimonials.3.name':'María G.','testimonials.3.role':'Plant Supervisor'
     },
     es: {
       'nav.product':'Producto','nav.about':'Nosotros','nav.team':'Equipo','nav.solutions':'Soluciones','nav.features':'Funcionalidades','nav.pricing':'Precios','nav.faq':'FAQ','nav.contact':'Contactar Ventas',
@@ -128,7 +136,7 @@
       'hero.badge':'Monitoreo en tiempo real',
       'trust.sensors':'Sensores certificados','trust.uptime':'99.9% uptime','trust.cloud':'Dashboard en la nube',
       'readout.volume':'Volumen','readout.pressure':'Presión','readout.temperature':'Temperatura','readout.density':'Densidad',
-      'product.title':'Visibilidad completa del agua','product.desc':'Monitorea tanques y tuberías de agua, midiendo volumen, presi��n y temperatura con paneles claros y alertas configurables.',
+      'product.title':'Visibilidad completa del agua','product.desc':'Monitorea tanques y tuberías de agua, midiendo volumen, presión y temperatura con paneles claros y alertas configurables.',
       'cards.volumeTitle':'Gestión de Volumen','cards.volumeText':'Registra niveles, calcula consumos y predice reabastecimientos.',
       'cards.pressureTitle':'Seguimiento de Presión','cards.pressureText':'Detecta variaciones de presión para evitar daños en líneas.',
       'cards.temperatureTitle':'Control de Temperatura','cards.temperatureText':'Asegura rangos ideales con alertas inteligentes.',
