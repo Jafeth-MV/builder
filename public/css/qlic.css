@@ -198,13 +198,16 @@ body.scrolled .site-header{background:linear-gradient(90deg, #0a63ff, #007BFF);b
 .about-bars span:after{content:"";position:absolute;inset:auto 0 0 0;height:var(--v);background:linear-gradient(180deg, rgba(0,123,255,.8), rgba(40,167,69,.6));border-radius:0 0 8px 8px}
 
 /* Team */
-.team-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:16px;margin-top:14px}
-.member-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:18px;text-align:center;transition:transform .15s ease, box-shadow .2s ease}
+.team-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px}
+.member-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:16px;transition:transform .15s ease, box-shadow .2s ease}
 .member-card:hover{transform:translateY(-3px);box-shadow:0 12px 28px rgba(2,6,23,.12)}
-.member-avatar{width:96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 12px;background:linear-gradient(135deg,var(--primary),var(--success));color:#fff;font-size:28px;overflow:hidden}
-.member-avatar img{width:100%;height:100%;border-radius:50%;display:block;object-fit:cover}
-.member-name{margin:0 0 4px;font-size:16px}
-.member-role{margin:0;color:var(--muted)}
+.member-photo{width:100%;height:200px;border-radius:12px;overflow:hidden;margin-bottom:12px;background:linear-gradient(135deg,var(--primary),var(--success))}
+.member-photo img{width:100%;height:100%;object-fit:cover;display:block}
+.member-name{margin:0 0 6px;font-size:16px;text-transform:uppercase;font-weight:700}
+.member-role{margin:0 0 10px;color:var(--success);font-weight:600}
+.member-social{display:flex;gap:12px;margin-top:8px}
+.member-social .social-link{color:var(--muted);text-decoration:none}
+.member-social .social-link:hover{color:var(--text)}
 
 @media (max-width:1024px){.about-grid{grid-template-columns:1fr}.points-grid{grid-template-columns:1fr 1fr}.team-grid{grid-template-columns:repeat(3,1fr)}.member-avatar{width:84px;height:84px;font-size:26px;margin-bottom:10px}}
 @media (max-width:720px){.points-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr 1fr}.member-avatar{width:76px;height:76px;font-size:24px}}
