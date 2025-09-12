@@ -80,8 +80,8 @@
   const translations = {
     en: {
       'nav.product':'Product','nav.about':'About Us','nav.team':'Team','nav.solutions':'Solutions','nav.features':'Features','nav.pricing':'Pricing','nav.faq':'FAQ','nav.contact':'Contact Sales',
-      'hero.title':'Smart liquid monitoring for homes and businesses',
-      'hero.subtitle':'Track volume, pressure, density and temperature in real time with clear alerts and reports.',
+      'hero.title':'Smart water monitoring for homes and businesses',
+      'hero.subtitle':'Track volume, pressure and temperature in real time with clear alerts and reports.',
       'cta.getStarted':'Get Started','cta.learnMore':'Learn More','hero.more':'Qlic integrates high-precision sensors with a cloud platform to give you full visibility of your tanks and lines. Configure alerts, share access, and export data for audits.',
       'hero.badge':'Real-Time Monitoring',
       'trust.sensors':'Certified sensors','trust.uptime':'99.9% uptime','trust.cloud':'Cloud dashboard',
