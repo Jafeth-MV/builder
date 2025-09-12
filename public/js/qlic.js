@@ -86,7 +86,7 @@
       'hero.badge':'Real-Time Monitoring',
       'trust.sensors':'Certified sensors','trust.uptime':'99.9% uptime','trust.cloud':'Cloud dashboard',
       'readout.volume':'Volume','readout.pressure':'Pressure','readout.temperature':'Temperature','readout.density':'Density',
-      'product.title':'Full visibility of your liquids','product.desc':'Monitor water, beer, gasoline and more, measuring volume, pressure, density and temperature with clear dashboards and configurable alerts.',
+      'product.title':'Full visibility of your water','product.desc':'Monitor water tanks and pipelines, measuring volume, pressure and temperature with clear dashboards and configurable alerts.',
       'cards.volumeTitle':'Volume Management','cards.volumeText':'Record levels, calculate consumption and predict replenishments.',
       'cards.pressureTitle':'Pressure Tracking','cards.pressureText':'Detect pressure variations to prevent line damage.',
       'cards.temperatureTitle':'Temperature Control','cards.temperatureText':'Ensure ideal ranges with smart alerts.',
