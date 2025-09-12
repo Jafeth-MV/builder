@@ -209,8 +209,8 @@ body.scrolled .site-header{background:linear-gradient(90deg, #0a63ff, #007BFF);b
 .member-social .social-link{color:var(--muted);text-decoration:none}
 .member-social .social-link:hover{color:var(--text)}
 
-@media (max-width:1024px){.about-grid{grid-template-columns:1fr}.points-grid{grid-template-columns:1fr 1fr}.team-grid{grid-template-columns:repeat(3,1fr)}.member-avatar{width:84px;height:84px;font-size:26px;margin-bottom:10px}}
-@media (max-width:720px){.points-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr 1fr}.member-avatar{width:76px;height:76px;font-size:24px}}
+@media (max-width:1024px){.about-grid{grid-template-columns:1fr}.points-grid{grid-template-columns:1fr 1fr}.team-grid{grid-template-columns:repeat(2,1fr)}.member-photo{height:180px}}
+@media (max-width:720px){.points-grid{grid-template-columns:1fr}.team-grid{grid-template-columns:1fr}.member-photo{height:220px}}
 
 /* Inline style replacements */
 .level-80{--v:80%}
