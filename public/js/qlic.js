@@ -121,11 +121,11 @@
       'toast.plan':'Plan {plan} selected. Our team will contact you.'
     },
     es: {
-      'nav.product':'Producto','nav.about':'Nosotros','nav.team':'Equipo','nav.solutions':'Soluciones','nav.features':'Funcionalidades','nav.pricing':'Precios','nav.faq':'FAQ','nav.contact':'Contact Sales',
-      'hero.title':'Monitoreo inteligente de líquidos para hogares y empresas',
-      'hero.subtitle':'Controla volumen, presión, densidad y temperatura en tiempo real con alertas y reportes claros.',
-      'cta.getStarted':'Get Started','cta.learnMore':'Learn More','hero.more':'Qlic integra sensores de alta precisión con una plataforma en la nube para brindar visibilidad total de tus tanques y líneas. Configura alertas, comparte accesos y exporta datos para auditorías.',
-      'hero.badge':'Real-Time Monitoring',
+      'nav.product':'Producto','nav.about':'Nosotros','nav.team':'Equipo','nav.solutions':'Soluciones','nav.features':'Funcionalidades','nav.pricing':'Precios','nav.faq':'FAQ','nav.contact':'Contactar Ventas',
+      'hero.title':'Monitoreo inteligente de agua para hogares y empresas',
+      'hero.subtitle':'Controla volumen, presión y temperatura en tiempo real con alertas y reportes claros.',
+      'cta.getStarted':'Comenzar','cta.learnMore':'Más información','hero.more':'Qlic integra sensores de alta precisión con una plataforma en la nube para brindar visibilidad total de tus tanques y líneas de agua. Configura alertas, comparte accesos y exporta datos para auditorías.',
+      'hero.badge':'Monitoreo en tiempo real',
       'trust.sensors':'Sensores certificados','trust.uptime':'99.9% uptime','trust.cloud':'Dashboard en la nube',
       'readout.volume':'Volumen','readout.pressure':'Presión','readout.temperature':'Temperatura','readout.density':'Densidad',
       'product.title':'Visibilidad completa de tus líquidos','product.desc':'Monitorea agua, cerveza, gasolina y más, midiendo volumen, presión, densidad y temperatura con paneles claros y alertas configurables.',
