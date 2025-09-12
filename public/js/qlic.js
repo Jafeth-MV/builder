@@ -96,7 +96,7 @@
       'about.closenessTitle':'Customer focus','about.closenessText':'Human support, guided onboarding and continuous improvements.',
       'team.title':'Our team','team.desc':'Five pillars powering Qlic: engineering, hardware, data, product and operations.',
       'solutions.title':'Solutions by segment','solutions.homeTitle':'Residences','solutions.homeText':'Monitor water tanks, receive low-level alerts and prevent leaks.',
-      'solutions.businessTitle':'Businesses','solutions.businessText':'Control liquid inventories, audits and compliance in industries.',
+      'solutions.businessTitle':'Businesses','solutions.businessText':'Control water inventories, audits and compliance in industries.',
       'features.title':'Key features','features.pressureTitle':'Pressure Tracking','features.pressureText':'Trends and safety thresholds with notifications.',
       'features.temperatureTitle':'Temperature Control','features.temperatureText':'Custom ranges and thermal control for quality.',
       'features.volumeTitle':'Volume Management','features.volumeText':'Consumption projections and replenishment logistics.',
