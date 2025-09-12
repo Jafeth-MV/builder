@@ -251,6 +251,19 @@
     setText('#features .feature-card:nth-child(3) .feature-title', tr['features.volumeTitle']);
     setText('#features .feature-card:nth-child(3) .feature-text', tr['features.volumeText']);
 
+    // Testimonials
+    setText('#testimonials .section-title', tr['testimonials.title']);
+    setText('#testimonials .section-desc', tr['testimonials.desc']);
+    setText('#testimonials .testimonial-card:nth-child(1) .quote', tr['testimonials.1.quote']);
+    setText('#testimonials .testimonial-card:nth-child(1) .author', tr['testimonials.1.name']);
+    setText('#testimonials .testimonial-card:nth-child(1) .role', tr['testimonials.1.role']);
+    setText('#testimonials .testimonial-card:nth-child(2) .quote', tr['testimonials.2.quote']);
+    setText('#testimonials .testimonial-card:nth-child(2) .author', tr['testimonials.2.name']);
+    setText('#testimonials .testimonial-card:nth-child(2) .role', tr['testimonials.2.role']);
+    setText('#testimonials .testimonial-card:nth-child(3) .quote', tr['testimonials.3.quote']);
+    setText('#testimonials .testimonial-card:nth-child(3) .author', tr['testimonials.3.name']);
+    setText('#testimonials .testimonial-card:nth-child(3) .role', tr['testimonials.3.role']);
+
     // Pricing
     setText('#pricing .section-title', tr['pricing.title']);
     setText('#pricing .price-card:nth-child(1) .price-period', tr['pricing.perMonth']);
